@@ -200,7 +200,7 @@ $(document).ready(function () {
             address: 'The Wildflower Country Inn and Event Center, San Marcos, Texas',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact Lauri Schattenberg (USA) at (512) 517-3157 or Greetje van Hengel (NL) at +31 6 2476 6933."
         }
     });
 
