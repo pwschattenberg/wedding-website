@@ -6,7 +6,7 @@ function initMap() {
     var osmTileLayer = L.tileLayer(osmUrl, {attribution: osmAttrib});
 
     // Create map instance using Leaflet (consider Leaflet.js or other libraries)
-    var map = L.map('map-canvas', { scrollWheelZoom: false }).setView(location, 15); // Center & zoom
+    var map = L.map('map-canvas', { scrollWheelZoom: false, zoomControl: true}).setView(location, 15); // Center & zoom
     map.addLayer(osmTileLayer); // Add OpenStreetMap tiles
 
     // Create a marker using a library like Leaflet.markercluster
