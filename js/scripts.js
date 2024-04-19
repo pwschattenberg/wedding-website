@@ -241,33 +241,33 @@ $(document).ready(function () {
 /********************** Extras **********************/
 
 // Google map
-function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: location,
-        scrollwheel: false
-    });
+// function initMap() {
+//     var location = {lat: 22.5932759, lng: 88.27027720000001};
+//     var map = new google.maps.Map(document.getElementById('map-canvas'), {
+//         zoom: 15,
+//         center: location,
+//         scrollwheel: false
+//     });
 
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
-}
+//     var marker = new google.maps.Marker({
+//         position: location,
+//         map: map
+//     });
+// }
 
-function initBBSRMap() {
-    var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: la_fiesta,
-        scrollwheel: false
-    });
+// function initBBSRMap() {
+//     var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
+//     var map = new google.maps.Map(document.getElementById('map-canvas'), {
+//         zoom: 15,
+//         center: la_fiesta,
+//         scrollwheel: false
+//     });
 
-    var marker = new google.maps.Marker({
-        position: la_fiesta,
-        map: map
-    });
-}
+//     var marker = new google.maps.Marker({
+//         position: la_fiesta,
+//         map: map
+//     });
+// }
 
 // alert_markup
 function alert_markup(alert_type, msg) {
